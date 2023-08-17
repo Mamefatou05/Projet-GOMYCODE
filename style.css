@@ -1,0 +1,339 @@
+body {
+    font-family: sans-serif;
+}
+
+#first {
+    height: 600px;
+    background-image: url('logo/my profil.png');
+    background-size: 100%;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.col-md-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.en-tête {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    font-size: 60px;
+    color: rgb(126, 120, 120);
+}
+
+.icon {
+    width: 20px;
+    margin: 15px;
+}
+
+.icon button {
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    margin: 2px;
+}
+
+header nav {
+    height: 70px;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.collapse ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav li:hover>ul {
+    display: inherit;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.cart a {
+    color: black;
+    margin-right: 10px;
+}
+
+.text-header {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'WindSong', cursive;
+}
+
+.produits {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'WindSong', cursive;
+}
+
+.meilleurs {
+    margin-top: 5%;
+}
+
+
+.img {
+
+    width: 15%;
+    height: 15%;
+}
+
+.acceuil {
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diapositive {
+    text-align: center;
+}
+
+.img-slide {
+    align-items: center;
+    height: 450px;
+
+}
+
+.section-tutoriel {
+    justify-content: center;
+    margin-top: 5%;
+    display: flex;
+
+
+}
+
+.Tuto {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-title {
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: 'WindSong', cursive;
+}
+
+.card-body {
+    margin-left: 5%;
+}
+
+.A-la-une {
+    width: 80%;
+    margin-left: 10%;
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.A-la-une .card-total {
+    width: 280px;
+    height: 350px;
+
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+.end-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+
+.end-main p {
+    text-align: center;
+}
+
+#end {
+    font-size: 40px;
+}
+
+.infos {
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.infos h3 {
+    margin-top: 10%;
+}
+
+footer .footer {
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 5%;
+
+}
+
+footer {
+
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+
+.col-md-4 div {
+    margin-top: 2px;
+    margin-left: 10%;
+
+
+
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#Crafters {
+    text-align: center;
+}
+
+
+
+
+/* tutoriel.html */
+
+#tutoriel-html {
+    background-image: url();
+}
+
+#tuto-vet {
+    width: 180px;
+    height: 150px;
+    border: 5px solid gray;
+}
+
+.mes-tuto {
+    margin: 2%;
+}
+
+.title-tuto {
+    font-family: 'WindSong', cursive;
+
+}
+
+main div {
+    text-align: center;
+
+}
+
+main div #tutoriel #Tuto-crochet {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.text-tuto {
+    margin-top: 15px;
+}
+
+.main .section-tutoriel {
+    margin-top: 5%;
+}
+
+/* mercerie .html */
+
+
+
+main .article {
+
+    flex-wrap: wrap;
+    display: flex;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#img {
+    width: 100px;
+    height: 150px;
+
+}
+
+main #articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 350px;
+    margin: 2%;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.valeur button a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.valeur button {
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+}
+
+.prix {
+    color: rgb(133, 132, 132);
+}
+
+/* laine.html */
