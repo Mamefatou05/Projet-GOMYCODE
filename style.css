@@ -29,13 +29,13 @@ header section {
 }
 
 .icon {
-    width: 20px;
+    width: 15px;
     margin: 15px;
 }
 
 .icon button {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 60%;
     margin: 2px;
 }
@@ -45,9 +45,12 @@ header nav {
 }
 
 nav {
+
+    justify-content: space-around;
     background-color: gray;
     color: white;
 }
+
 
 .navbar-nav {
     text-align: center;
@@ -59,9 +62,6 @@ nav {
     font-size: 15px;
 }
 
-nav li:hover>ul {
-    display: inherit;
-}
 
 .fa-solid {
     margin-right: 10px;
@@ -336,4 +336,151 @@ main #articles {
     color: rgb(133, 132, 132);
 }
 
-/* laine.html */
+
+/* PANIER.html */
+
+
+
+.Description {
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.img-detail {
+    margin-left: 2%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #22254e;
+    border-radius: 5px;
+
+}
+
+#like {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+
+.img-fluid {
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.info-product {
+    margin-left: 3%;
+}
+
+.info-product .product-price {
+
+    display: flex;
+    align-items: start;
+    margin-left: 5px;
+}
+
+.label {
+
+    color: #595959;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+
+}
+
+.quantity-choice {
+    width: 150px;
+
+    border: 1px solid #22254e;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.input {
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.btn-plusmoins {
+    cursor: pointer;
+}
+
+
+
+.inf-color {
+    text-align: start;
+
+}
+
+
+#validate-button {
+    margin: 6%;
+    height: 50px;
+    border: 1px solid #595959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#validate-button a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+
+
+/* bouton contact */
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+
+}
+
+
+input[type=submit] {
+    background-color: gray;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+
+.container {
+    text-align: start;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

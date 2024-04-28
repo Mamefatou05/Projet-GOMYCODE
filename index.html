@@ -11,6 +11,7 @@
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/1f8e94d034.js" crossorigin="anonymous"></script>
 
+
   <link rel="stylesheet" href="style.css" />
   <title>Crochet Crafters</title>
 </head>
@@ -27,18 +28,18 @@
 
       <div class="col-md-1">
 
-        <span class="icon"><a href=""> <button><i class="fa-brands fa-facebook fa-2xl"
+        <span class="icon"><a href=""> <button><i class="fa-brands fa-facebook fa-xl"
                 style="color: rgb(126, 120, 120);"></i></button>
           </a></span>
         <span class="icon"> <a href="">
-            <button><i class="fa-brands fa-twitter fa-2xl" style="color: rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-twitter fa-xl" style="color: rgb(126, 120, 120);"></i></button>
           </a></span>
         <span class="icon"><a href="">
-            <button><i class="fa-brands fa-instagram fa-2xl" style="color:  rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-instagram fa-xl" style="color:  rgb(126, 120, 120);"></i></button>
           </a></span>
 
         <span class="icon"><a href="">
-            <button><i class="fa-brands fa-tiktok fa-2xl" style="color: rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-tiktok fa-xl" style="color: rgb(126, 120, 120);"></i></button>
           </a></span>
 
 
@@ -48,38 +49,35 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="collapse navbar-collapse">
+
           <a class="navbar-brand" aria-expanded="true" aria-current="page" href="index.html">
             Acceuil
           </a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="Laine.html">Laine</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="Mercerie.html">Mercerie</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="Tutoriel.html" role="button" aria-expanded="false">
+              <a class="nav-link" href="Tutoriel.html">
                 Tutoriel
               </a>
-
             </li>
-
           </ul>
           <div class="cart">
-            <a href="">
+            <a href="panier.html">
               <i class="fa-brands fa-shopify fa-2xl"></i>
             </a>
           </div>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" id="searchInput" placeholder="Recherche"
               aria-label="Search" />
-            <button class="btn btn-outline-dark" type="submit" id="search-button">
+            <button class="btn btn-outline-dark" type="submit" id="searchButton">
               <i class="fa-solid fa-magnifying-glass fa-xl"></i>
             </button>
-            <div id="search-results"></div>
-
-
+            <div id="searchResults">
+              <!-- Les résultats de la recherche seront affichés ici -->
+            </div>
           </form>
         </div>
       </div>
@@ -105,15 +103,16 @@
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <a href="Laine.html"><img src="laine/coton/aliizé conton gold.jpg" class="img-slide" alt="..." /></a>
+              <a href="Mercerie.html"><img src="mercerie/autre/collection cigogne.jpg" class="img-slide"
+                  alt="..." /></a>
 
             </div>
             <div class="carousel-item">
-              <a href="..Laine.html.Fil-Coton"> <img src="laine/gros fil/Biskvit.jpg" class="img-slide" alt="..." /></a>
+              <a href="Tutoriel.html"> <img src="tutoriel/sac/Saccoche trésser .png" class="img-slide" alt="..." /></a>
 
             </div>
             <div class="carousel-item">
-              <a href="..Laine.html/#Nulon"> <img src="laine/soie/laine 10.webp" class="img-slide" alt="..." /></a>
+              <a href="Laine.html"> <img src="laine/soie/laine 10.webp" class="img-slide" alt="..." /></a>
 
             </div>
           </div>
@@ -134,7 +133,7 @@
         <div>
           <h3 class="section-tutoriel">
             <hr color="black" size="3" width="20%" />
-            <p class="Tuto">Produits à la une</p>
+            <p class="Tuto">Produits Mercerie</p>
             <hr color="black" size="3" width="20%" />
           </h3>
         </div>
@@ -146,17 +145,17 @@
               <div class="card-body">
                 <h5 class="card-title">aiguille Circulaire</h5>
                 <p class="card-text"></p>
-                <a href="Laine.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#Aguille-Ciseaux" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
           <div class="card-total">
             <div class="card">
-              <img src="mercerie/aiguille/mercerie 6.jpg" class="card-img-top" alt="..." />
+              <img src="mercerie/fond/fond de sac coeur.webp" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Aiguille en bois</h5>
+                <h5 class="card-title">Fond de Sac Coeur</h5>
                 <p class="card-text"></p>
-                <a href="Mercerie.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#Accesoires" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
@@ -167,7 +166,7 @@
               <div class="card-body">
                 <h5 class="card-title">Ciseaux</h5>
                 <p class="card-text"></p>
-                <a href="Mercerie.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#Accesoires" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
@@ -177,18 +176,19 @@
               <div class="card-body">
                 <h5 class="card-title">Ensembe d'aiguille</h5>
                 <p class="card-text"></p>
-                <a href="Mercerie.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#Aguille-Ciseaux" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- tutoriel -->
+
+      <!-- produit à la une -->
       <div>
         <div>
           <h3 class="section-tutoriel">
             <hr color="black" size="3" width="20%" />
-            <p class="Tuto">Nos tutoriel</p>
+            <p class="Tuto">Produits Laine</p>
             <hr color="black" size="3" width="20%" />
           </h3>
         </div>
@@ -196,49 +196,107 @@
         <div class="col-6 A-la-une">
           <div class="card-total">
             <div class="card">
-              <img src="tutoriel/sac/tutoriel sac 1.png" class="card-img-top" alt="..." />
+              <img src="laine/coton/durable Coral.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Sac à main</h5>
+                <h5 class="card-title">Durable Coral</h5>
                 <p class="card-text"></p>
-                <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#Fil-Coton" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
           <div class="card-total">
             <div class="card">
-              <img src="tutoriel/décoration et joué/coussin Coeur1.jpg" class="card-img-top" alt="..." />
+              <img src="laine/gros fil/Macramé corde.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Coussin Coeur</h5>
+                <h5 class="card-title">Macramé Corde</h5>
                 <p class="card-text"></p>
-                <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#gros-fil" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
 
           <div class="card-total">
             <div class="card">
-              <img src="tutoriel/vêtement/tutoriel bébé 1.png" class="card-img-top" alt="..." />
+              <img src="laine/soie/Fil de Bambou.avif" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Ensemble</h5>
+                <h5 class="card-title">Fil de Bambou</h5>
                 <p class="card-text"></p>
-                <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="./Mercerie.html#nulon" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
           <div class="card-total">
             <div class="card">
-              <img src="tutoriel/décoration et joué/bonbonnère.jpg" class="card-img-top" alt="..." />
+              <img src="laine/coton/broder mouliné.webp" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Bonbonnière</h5>
+                <h5 class="card-title">Broder Mouliné</h5>
                 <p class="card-text"></p>
-                <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                <a href="Mercerie.html#Fil-Coton" class="btn btn-outline-dark">choix des options</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- INFOS -->
-      <div>
+      <section>
+        <!-- tutoriel -->
+        <div>
+          <div>
+            <h3 class="section-tutoriel">
+              <hr color="black" size="3" width="20%" />
+              <p class="Tuto">Nos tutoriel</p>
+              <hr color="black" size="3" width="20%" />
+            </h3>
+          </div>
+
+          <div class="col-6 A-la-une">
+            <div class="card-total">
+              <div class="card">
+                <img src="tutoriel/sac/tutoriel sac 1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Sac à main</h5>
+                  <p class="card-text"></p>
+                  <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-total">
+              <div class="card">
+                <img src="tutoriel/décoration et joué/coussin Coeur1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Coussin Coeur</h5>
+                  <p class="card-text"></p>
+                  <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-total">
+              <div class="card">
+                <img src="tutoriel/vêtement/tutoriel bébé 1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Ensemble</h5>
+                  <p class="card-text"></p>
+                  <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-total">
+              <div class="card">
+                <img src="tutoriel/décoration et joué/bonbonnère.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Bonbonnière</h5>
+                  <p class="card-text"></p>
+                  <a href="Tutoriel.html" class="btn btn-outline-dark">choix des options</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!-- INFOS -->
+
         <div>
           <h3 class="end-main">
             <hr color="black" size="4" width="100%" />
@@ -267,9 +325,14 @@
             <p>à partir de 1000Fcfa</p>
           </div>
         </div>
-      </div>
+      </section>
+
+
     </div>
   </main>
+
+
+  <!-- Pied de page  -->
   <footer>
     <div>
       <div>
@@ -364,6 +427,8 @@
               </a>
 
               <hr color="black" size="3" width="60%" />
+
+              <span><a href="contaxt.html" class="btn btn-outline-dark">Contactez nous</a></span>
             </div>
           </div>
 
@@ -376,6 +441,7 @@
       </div>
     </div>
   </footer>
+
   <script src="main.js"></script>
 </body>
 

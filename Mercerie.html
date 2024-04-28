@@ -27,17 +27,17 @@
       <div class="col-md-1">
 
         <span class="icon"><a href="">
-            <button><i class="fa-brands fa-facebook fa-2xl" style="color: rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-facebook fa-xl" style="color: rgb(126, 120, 120);"></i></button>
           </a></span>
         <span class="icon"> <a href="">
-            <button><i class="fa-brands fa-twitter fa-2xl" style="color: rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-twitter fa-xl" style="color: rgb(126, 120, 120);"></i></button>
           </a></span>
         <span class="icon"><a href="">
-            <button><i class="fa-brands fa-instagram fa-2xl" style="color:  rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-instagram fa-xl" style="color:  rgb(126, 120, 120);"></i></button>
           </a></span>
 
         <span class="icon"><a href="">
-            <button><i class="fa-brands fa-tiktok fa-2xl" style="color: rgb(126, 120, 120);"></i></button>
+            <button><i class="fa-brands fa-tiktok fa-xl" style="color: rgb(126, 120, 120);"></i></button>
           </a></span>
 
 
@@ -51,9 +51,7 @@
             Acceuil
           </a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="Laine.html">Laine</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="Mercerie.html">Mercerie</a>
             </li>
@@ -66,18 +64,19 @@
 
           </ul>
           <div class="cart">
-            <a href="">
+            <a href="panier.html">
               <i class="fa-brands fa-shopify fa-2xl"></i>
             </a>
           </div>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" id="searchInput" placeholder="Recherche"
               aria-label="Search" />
-            <button class="btn btn-outline-dark" type="submit" id="search-button">
+            <button class="btn btn-outline-dark" type="submit" id="searchButton">
               <i class="fa-solid fa-magnifying-glass fa-xl"></i>
             </button>
-            <div id="search-results"></div>
-
+            <div id="searchResults">
+              <!-- Les résultats de la recherche seront affichés ici -->
+            </div>
 
           </form>
         </div>
@@ -86,7 +85,16 @@
     <div class="text-tuto">
       <div class="text-header">
         <h2 class="hero-title">
-          Des aiguilles au fil de coton à crocheter en passant par les
+          Avant de vous lancer, c’est sur CrochetCrafter que vous trouverez la laine à crocheter
+        </h2>
+        <h2 class="hero-title">
+          Choisissez votre couleur parmi une multitude de
+        </h2>
+        <h2 class="hero-title">
+          matières toutes douces : coton, nulon, gros fil..
+        </h2>
+        <h2 class="hero-title">
+          Des aiguilles à crocheter, en passant par les
         </h2>
         <h2 class="hero-title">
           tutoriels, vous trouverez sur nos merceries tout
@@ -96,585 +104,1009 @@
     </div>
   </header>
   <main>
+
+
     <div>
+
+      <!-- mercerie -->
       <div>
-        <!-- Aguille et Ciseaux -->
-        <div>
-          <h3 class="section-tutoriel">
-            <hr color="black" size="4" width="20%" />
-            <p class="Tuto">Aiguille et Cisseaux</p>
-            <hr color="black" size="4" width="20%" />
-          </h3>
-        </div>
-        <div class="article">
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/aiguille Circulaire.jpg" alt="" /></a>
 
-              <h4 class="hero-title">Aiguille Circulaire</h4>
-              <div>
-                <span>600</span>
-                <span>Fcfa</span>
+        <section id="Aguille-Ciseaux">
+          <!-- Aguille et Ciseaux -->
+          <div>
+            <h3 class="section-tutoriel">
+              <hr color="black" size="4" width="20%" />
+              <p class="Tuto">Aiguille et Cisseaux</p>
+              <hr color="black" size="4" width="20%" />
+            </h3>
+          </div>
+          <div class="article">
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/aiguille Circulaire.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Aiguille Circulaire</h4>
+                <div>
+                  <span>600</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" class="add-to-cart" data-product="1">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/Aiguille plastique.webp" alt="" /></a>
 
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <h4 class="hero-title">Aiguille en Plastique</h4>
+                <div>
+                  <span>500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" class="add-to-cart" data-product="2">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/aiguille argenté.webp" alt="" /></a>
+
+                <h4 class="hero-title">Aiguille Argenté</h4>
+                <div>
+                  <span>900</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" data-product="3">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/aiguille métal.png" alt="" /></a>
+
+                <h4 class="hero-title">Aiguille en Métal</h4>
+                <div>
+                  <span>400</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" class="add-to-cart">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="">
+                  <img id="img" src="mercerie/aiguille/aiguille Bambou.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Aiguille en Bambou</h4>
+                <div>
+                  <span>700</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="">
+                  <img id="img" src="mercerie/aiguille/mercerie 1.jpg" alt="" /></a>
+
+                <h4 class="hero-title">lot de Crochet</h4>
+                <div>
+                  <span>3000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="">
+                  <img id="img" src="mercerie/autre/hemline crochet.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Hemline Crochet</h4>
+                <div>
+                  <span>1000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="">
+                  <img id="img" src="mercerie/aiguille/crochet metal.webp" alt="" /></a>
+
+                <h4 class="hero-title">Crochet en Métal</h4>
+                <div>
+                  <span>800</span>
+                  <span>XOF</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="">
+                  <img id="img" src="mercerie/aiguille/lot de 9 clover.webp" alt="" /></a>
+
+                <h4 class="hero-title">Lot de 9 Clover</h4>
+                <div>
+                  <span>2000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/crochet plastique.webp" alt="" /></a>
+
+                <h4 class="hero-title">Crochet en Plastique</h4>
+                <div>
+                  <span>200</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/mercerie 6.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Crochet Bambou</h4>
+                <div>
+                  <span>600</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/aiguille/mercerie 7.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Set de Crochet</h4>
+                <div>
+                  <span>2500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/autre/collection cigogne.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Collection Cigogne</h4>
+                <div>
+                  <span>1500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href=""><img id="img" src="mercerie/autre/collection or.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Collection Or</h4>
+                <div>
+                  <span>1000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/collection-Mini.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Collection Mini</h4>
+                <div>
+                  <span>400</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html">
+                  <img id="img" src="mercerie/autre/collection-Queue-de-Lion.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Collection Lion</h4>
+                <div>
+                  <span>200</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/Aiguille plastique.webp" alt="" /></a>
+        </section>
+        <section id="Accesoires">
+          <!-- Accesoires -->
+          <div>
+            <h3 class="section-tutoriel">
+              <hr color="black" size="4" width="20%" />
+              <p class="Tuto">Accessoires</p>
+              <hr color="black" size="4" width="20%" />
+            </h3>
+          </div>
+          <div class="article">
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/Anses-bois-1.jpg" alt="" /></a>
 
-              <h4 class="hero-title">Aiguille en Plastique</h4>
-              <div>
-                <span>500</span>
-                <span>Fcfa</span>
+                <h4 class="hero-title">Anses Bois</h4>
+                <div>
+                  <span>900</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/bouton bûchette.jpg" alt="" /></a>
 
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <h4 class="hero-title">Bouton Bûchette</h4>
+                <div>
+                  <span>300</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html">
+                  <img id="img" src="mercerie/autre/Epingle-à-châle.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Epingle à Châle</h4>
+                <div>
+                  <span>800</span>
+                  <span>XOF</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html">
+                  <img id="img" src="mercerie/autre/epingles marqueur.webp" alt="" /></a>
+
+                <h4 class="hero-title">Epingles Marqueur</h4>
+                <div>
+                  <span>250</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/marqueur chardon.webp" alt="" /></a>
+
+                <h4 class="hero-title">Marqueur Chardon</h4>
+                <div>
+                  <span>600</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/marqueur perlé.webp" alt="" /></a>
+
+                <h4 class="hero-title">Marqueur Perlé</h4>
+                <div>
+                  <span>500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/Pack-3-couleur-yeux.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Pack Couleur Yeux</h4>
+                <div>
+                  <span>1000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/yeux doudou.webp" alt="" /></a>
+
+                <h4 class="hero-title">Yeux Doudou</h4>
+                <div>
+                  <span>1000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/Pieds-de-sac.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Pieds de Sac</h4>
+                <div>
+                  <span>200</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/passe laine.webp" alt="" /></a>
+
+                <h4 class="hero-title">/Passe Laine</h4>
+                <div>
+                  <span>100</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/Grelon-jouet-bébé.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Grelon Jouet Bébé</h4>
+                <div>
+                  <span>300</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/Support-derouleur-laine.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Dérouleur Laine</h4>
+                <div>
+                  <span>1500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/autre/Pieds-de-sac.jpg" alt="" /></a>
+
+                <h4 class="hero-title">Pieds de Sac</h4>
+                <div>
+                  <span>200</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/fond/fond de sac coeur.webp" alt="" /></a>
+
+                <h4 class="hero-title">Fond de Sac Coeur</h4>
+                <div>
+                  <span>1500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/fond/fermoire de sace.webp" alt="" /></a>
+
+                <h4 class="hero-title">Fermoire de Sac</h4>
+                <div>
+                  <span>2000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <a href="Description.html"><img id="img" src="mercerie/fond/Cotes de sac.webp" alt="" /></a>
+
+                <h4 class="hero-title">Cotes de Sac</h4>
+                <div class="prix">
+                  <span>1500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/aiguille argenté.webp" alt="" /></a>
+        </section>
 
-              <h4 class="hero-title">Aiguille Argenté</h4>
-              <div>
-                <span>900</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/aiguille métal.png" alt="" /></a>
-
-              <h4 class="hero-title">Aiguille en Métal</h4>
-              <div>
-                <span>400</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/aiguille/aiguille Bambou.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Aiguille en Bambou</h4>
-              <div>
-                <span>700</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/aiguille/mercerie 1.jpg" alt="" /></a>
-
-              <h4 class="hero-title">lot de Crochet</h4>
-              <div>
-                <span>3000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/autre/hemline crochet.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Hemline Crochet</h4>
-              <div>
-                <span>1000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/aiguille/crochet metal.webp" alt="" /></a>
-
-              <h4 class="hero-title">Crochet en Métal</h4>
-              <div>
-                <span>800</span>
-                <span>XOF</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/aiguille/lot de 9 clover.webp" alt="" /></a>
-
-              <h4 class="hero-title">Lot de 9 Clover</h4>
-              <div>
-                <span>2000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/crochet plastique.webp" alt="" /></a>
-
-              <h4 class="hero-title">Crochet en Plastique</h4>
-              <div>
-                <span>200</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/mercerie 6.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Crochet Bambou</h4>
-              <div>
-                <span>600</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/aiguille/mercerie 7.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Set de Crochet</h4>
-              <div>
-                <span>2500</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/collection cigogne.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Collection Cigogne</h4>
-              <div>
-                <span>1500</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/collection or.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Collection Or</h4>
-              <div>
-                <span>1000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/collection-Mini.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Collection Mini</h4>
-              <div>
-                <span>400</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/autre/collection-Queue-de-Lion.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Collection Lion</h4>
-              <div>
-                <span>200</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+      <!-- laine -->
       <div>
-        <!-- Accesoires -->
-        <div>
-          <h3 class="section-tutoriel">
-            <hr color="black" size="4" width="20%" />
-            <p class="Tuto">Accessoires</p>
-            <hr color="black" size="4" width="20%" />
-          </h3>
-        </div>
-        <div class="article">
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/Anses-bois-1.jpg" alt="" /></a>
+        <section id="Fil-Coton">
+          <!-- COTON -->
 
-              <h4 class="hero-title">Anses Bois</h4>
-              <div>
-                <span>900</span>
-                <span>Fcfa</span>
+          <div>
+            <h3 class="section-tutoriel">
+              <hr color="black" size="4" width="20%" />
+              <p class="Tuto"> Fil Coton</p>
+              <hr color="black" size="4" width="20%" />
+            </h3>
+          </div>
+          <div class="article">
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/merinos.webp" alt="" />
+                <h4 class="hero-title">Mérinos</h4>
+                <div>
+                  <span>800</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" class="add-to-cart" data-product="4">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/ali.jpg" alt="" />
+                <h4 class="hero-title">Alizé Coton</h4>
+                <div>
+                  <span>600</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" class="add-to-cart" data-product="5">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/kAtia Marathon.jpeg" alt="" />
+                <h4 class="hero-title">KAtia Marathon</h4>
+                <div>
+                  <span>700</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="" class="add-to-cart" data-product="6">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/broder mouliné.webp" alt="" />
+                <h4 class="hero-title">Brodé Mouliné</h4>
+                <div>
+                  <span>300</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/durable Coral.jpg" alt="" />
+                <h4 class="hero-title">Durable Coral</h4>
+                <div>
+                  <span>500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/Muskat.jpg" alt="" />
+                <h4 class="hero-title">Muskat</h4>
+                <div>
+                  <span>750</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/laine 3.jpg" alt="" />
+                <h4 class="hero-title">Pack de Laine</h4>
+                <div>
+                  <span>4000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/laine 4.jpg" alt="" />
+                <h4 class="hero-title">Coton Mérinos</h4>
+                <div>
+                  <span>800</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/bouton bûchette.jpg" alt="" /></a>
 
-              <h4 class="hero-title">Bouton Bûchette</h4>
-              <div>
-                <span>300</span>
-                <span>Fcfa</span>
+        </section>
+        <section id="nulon">
+          <!-- Nulon -->
+
+          <div>
+            <h3 class="section-tutoriel">
+              <hr color="black" size="4" width="20%" />
+              <p class="Tuto"> Fil Nulon</p>
+              <hr color="black" size="4" width="20%" />
+            </h3>
+          </div>
+          <div class="article">
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/Ajur pelotes.webp" alt="" />
+                <h4 class="hero-title">Ajur Pelotes</h4>
+                <div>
+                  <span>400</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/Cébélia.webp" alt="" />
+                <h4 class="hero-title">Cébélia</h4>
+                <div>
+                  <span>500</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/Fil de Bambou.avif" alt="" />
+                <h4 class="hero-title">Fil de Bambou</h4>
+                <div>
+                  <span>700</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/fil dorée.jpg" alt="" />
+                <h4 class="hero-title">Fil Dorée</h4>
+                <div>
+                  <span>250</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/laine 10.webp" alt="" />
+                <h4 class="hero-title">Patchouli</h4>
+                <div>
+                  <span>600</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/laine 11.webp" alt="" />
+                <h4 class="hero-title">Plassard</h4>
+                <div>
+                  <span>750</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/babilo.jpg" alt="" />
+                <h4 class="hero-title">Pack Babylo</h4>
+                <div>
+                  <span>4500</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/soie/curio.jpg" alt="" />
+                <h4 class="hero-title">Curio</h4>
+                <div>
+                  <span>450</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/autre/Epingle-à-châle.jpg" alt="" /></a>
 
-              <h4 class="hero-title">Epingle à Châle</h4>
-              <div>
-                <span>800</span>
-                <span>XOF</span>
-              </div>
+        </section>
+        <section id="gros-fil">
+          <!-- Gros Fil-->
 
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+          <div>
+            <h3 class="section-tutoriel">
+              <hr color="black" size="4" width="20%" />
+              <p class="Tuto"> Gros Fil</p>
+              <hr color="black" size="4" width="20%" />
+            </h3>
+          </div>
+          <div class="article">
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/gros fil/Anchor macramé.webp" alt="" />
+                <h4 class="hero-title">Anchor</h4>
+                <div>
+                  <span>1000</span>
+                  <span>Fcfa</span>
+                </div>
+
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html">
-                <img id="img" src="mercerie/autre/epingles marqueur.webp" alt="" /></a>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/gros fil/Biskvit.jpg" alt="" />
+                <h4 class="hero-title">Biskvit</h4>
+                <div>
+                  <span>1200</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <h4 class="hero-title">Epingles Marqueur</h4>
-              <div>
-                <span>250</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/marqueur chardon.webp" alt="" /></a>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/coton/aliizé conton gold.jpg" alt="" />
+                <h4 class="hero-title">Alizé Coton Gold</h4>
+                <div>
+                  <span>700</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <h4 class="hero-title">Marqueur Chardon</h4>
-              <div>
-                <span>600</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/marqueur perlé.webp" alt="" /></a>
-
-              <h4 class="hero-title">Marqueur Perlé</h4>
-              <div>
-                <span>500</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/Pack-3-couleur-yeux.jpg" alt="" /></a>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/gros fil/chunky coton.webp" alt="" />
+                <h4 class="hero-title">Chunky Coton</h4>
+                <div>
+                  <span>900</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <h4 class="hero-title">Pack Couleur Yeux</h4>
-              <div>
-                <span>1000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/yeux doudou.webp" alt="" /></a>
-
-              <h4 class="hero-title">Yeux Doudou</h4>
-              <div>
-                <span>1000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/Pieds-de-sac.jpg" alt="" /></a>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/gros fil/fil à pompons.webp" alt="" />
+                <h4 class="hero-title">Fil à Pompons</h4>
+                <div>
+                  <span>1400</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <h4 class="hero-title">Pieds de Sac</h4>
-              <div>
-                <span>200</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/passe laine.webp" alt="" /></a>
-
-              <h4 class="hero-title">/Passe Laine</h4>
-              <div>
-                <span>100</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/Grelon-jouet-bébé.jpg" alt="" /></a>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/gros fil/Macramé corde.jpg" alt="" />
+                <h4 class="hero-title">Macramé Corde</h4>
+                <div>
+                  <span>950</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <h4 class="hero-title">Grelon Jouet Bébé</h4>
-              <div>
-                <span>300</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/Support-derouleur-laine.jpg" alt="" /></a>
-
-              <h4 class="hero-title">Dérouleur Laine</h4>
-              <div>
-                <span>1500</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/autre/Pieds-de-sac.jpg" alt="" /></a>
+            <div class="col-4" id="articles">
+              <div class="produit">
+                <img id="img" src="laine/gros fil/rubané rose.webp" alt="" />
+                <h4 class="hero-title">Rubané Rose</h4>
+                <div>
+                  <span>1500</span>
+                  <span>Fcfa</span>
+                </div>
 
-              <h4 class="hero-title">Pieds de Sac</h4>
-              <div>
-                <span>200</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/fond/fond de sac coeur.webp" alt="" /></a>
-
-              <h4 class="hero-title">Fond de Sac Coeur</h4>
-              <div>
-                <span>1500</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
+                <div class="valeur">
+                  <button class="btn btn-outline-dark" type="submit">
+                    <a href="">Ajouter au panier</a>
+                  </button>
+                </div>
               </div>
             </div>
+
           </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/fond/fermoire de sace.webp" alt="" /></a>
 
-              <h4 class="hero-title">Fermoire de Sac</h4>
-              <div>
-                <span>2000</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-4" id="articles">
-            <div class="produit">
-              <a href="Description.html"><img id="img" src="mercerie/fond/Cotes de sac.webp" alt="" /></a>
-
-              <h4 class="hero-title">Cotes de Sac</h4>
-              <div class="prix">
-                <span>1500</span>
-                <span>Fcfa</span>
-              </div>
-
-              <div class="valeur">
-                <button class="btn btn-outline-dark" type="submit">
-                  <a href="">Ajouter au panier</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
-      <!-- INFOS -->
-      <div>
+
+      <section>
+        <!-- INFOS -->
+
         <div>
           <h3 class="end-main">
             <hr color="black" size="4" width="100%" />
@@ -703,9 +1135,11 @@
             <p>à partir de 1000Fcfa</p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   </main>
+
+  <!-- Pied de page  -->
   <footer>
     <div>
       <div>
@@ -800,6 +1234,9 @@
               </a>
 
               <hr color="black" size="3" width="60%" />
+
+
+              <span><a href="contaxt.html" class="btn btn-outline-dark">Contactez nous</a></span>
             </div>
           </div>
 
@@ -812,7 +1249,7 @@
       </div>
     </div>
   </footer>
-  <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
